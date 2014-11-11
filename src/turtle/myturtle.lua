@@ -10,9 +10,9 @@ end
 term.clear()
 term.setCursorPos(1,1)
 
-if perpheral.isPresent("right") and peripheral.getType("right") == "modem" then
+if peripheral.isPresent("right") and peripheral.getType("right") == "modem" then
   rednet.open("right")
-elseif perpheral.isPresent("left") and peripheral.getType("left") == "modem" then
+elseif peripheral.isPresent("left") and peripheral.getType("left") == "modem" then
   rednet.open("left")
 else
   print("You need to equip the turtle with a modem!")
