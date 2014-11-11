@@ -20,4 +20,3 @@ else
   os.pullEvent("key")
   shell.run("rom/programs/shell")
 end
-
